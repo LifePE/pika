@@ -110,6 +110,7 @@ def runGame():
     judgeRage=55
     boost1=True
     boost2=True
+    
 
     while True:
         clock.tick(60)
@@ -213,8 +214,6 @@ def runGame():
             acc_y=8
             p1_x+=(vec/2)*2
             p1_y-=vec            
-
-        
 
 
         if (p2_y>=pos_y and p2_y<pos_y+judgeRage) and (p2_x<=pos_x+judgeRage and p2_x>pos_x) and boost2==False:
